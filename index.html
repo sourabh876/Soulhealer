@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.5" />
+    <title>Soulhealer-A music app</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/utility.css" />
+    <link rel="icon" type="image/x-icon" sizes="32x32" href="soulhealer.ico">
+  </head>
+ 
+  <body>
+    <div class="container flex bg-black">
+      <div class="left">
+        <div class="home bg-grey rounded m2 p-1">
+          <div class="logo">
+            <img class="logos invert" src="img/logo.svg" alt="" />
+            <img class="close invert" src="img/close.svg" alt="" />
+          </div>
+
+          <ul>
+            <li><img class="invert" src="img/home.svg" alt="home" />Home</li>
+            <li><img class="invert" src="img/search.svg" alt="home" />Search</li>
+          </ul>
+        </div>
+        <div class="library bg-grey rounded m2 p-1">
+          <div class="heading">
+            <img class="invert" src="img/playlist.svg" alt="library" />
+            <h4>Your Library</h4>
+            <img class="invert" src="img/add.svg" alt="">
+            
+          </div>
+          <div class="songcontainer">
+            <ul></ul>
+          </div>
+          <div class="footer underline">
+            <div>
+              <a href=""
+                ><span>Legal</span></a
+              >
+            </div>
+            <div>
+              <a href=""
+                ><span>PrivacyCenter</span></a
+              >
+            </div>
+            <div>
+              <a href=""
+                ><span>PrivacyPolicy</span></a
+              >
+            </div>
+            <div>
+              <a href=""
+                ><span>Cookies</span></a
+              >
+            </div>
+            <div>
+              <a href=""
+                ><span>AboutAds</span></a
+              >
+            </div>
+            <div>
+              <a href=""
+                ><span>Accessibility</span></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right bg-grey rounded">
+        <div class="header">
+          <div class="nav1">
+            <img class="hamburger invert" src="img/hamburger.svg" alt="" />
+            <span class="flex"
+              ><img class="invert" src="img/left.svg" alt="left" />
+              <img class="invert" src="img/right.svg" alt="right"
+            /></span>
+          </div>
+          <div class="buttons">
+            <button class="signupbtn">Sign up</button>
+            <button class="loginbtn">Log in</button>
+          </div>
+        </div>
+        <div class="yourplaylist">
+          <h4 class="fntsize">Your playlists</h4>
+          <div class="cardcontainer">
+            
+          </div>
+          <div class="playbar">
+            <div class="seekbar">
+              <div class="circle"></div>
+            </div>
+            <div class="songinfo"></div>
+            <div class="songbutton">
+              <img id="previous" src="img/previous.svg" alt="prev" />
+              <img id="play" src="img/play.svg" alt="play" />
+              <img id="next" src="img/next.svg" alt="next" />
+            </div>
+            <div class="volume">
+              <img src="img/volume.svg" alt="" />
+              <span class="range">
+                <input type="range" name="volume" id="" />
+              </span>
+            </div>
+            <div class="songtime"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>

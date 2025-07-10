@@ -1,0 +1,108 @@
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+ justify-content: center;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.bg-grey{
+    background-color: #121212;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.rounded{
+    border-radius: 7px;
+}
+
+.m2{
+    margin: 5px;
+}
+
+.p-1{
+    padding: 10px;
+}
+
+.wf{
+    color: white;
+}
+
+
+/* .btnstyl1{
+  position: absolute;
+  left: 175px;
+  top: -34px;
+} */
+
+
+
+
+/* .btnstyl1 :hover{
+    background-color: #716E6E;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+    height: 42px;
+    width: 42px;
+} */
+
+/* scrollbar */
+/* For WebKit browsers (like Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 12px; 
+}
+
+::-webkit-scrollbar-track {
+    background: #121212; 
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #333; 
+    border-radius: 10px; 
+    border: 2px solid #121212; 
+}
+
+
+* {
+    scrollbar-width:thin; 
+    scrollbar-color: #333 #121212; 
+}
+
+.nav1{
+    position: relative;
+    display: flex;
+    gap: 10px;
+}
+
+.fntsize{
+    font-size: 20px;
+}
+
+.hgt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    overflow: hidden;
+}
+
