@@ -96,7 +96,7 @@ async function displayAlbums() {
         let card = document.createElement("div");
         card.classList.add("card");
         card.dataset.folder = folder;
-        card.innerHTML = `;
+        card.innerHTML = `
             <img src="/songs/${folder}/cover.jpg" alt="Cover">
             <h1>${response.title}</h1>
             <h2>${response.description}</h2>
